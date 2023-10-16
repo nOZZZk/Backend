@@ -1,0 +1,1 @@
+INSERT INTO menuiserie(nom) VALUES ('Menuiserie des arbres');

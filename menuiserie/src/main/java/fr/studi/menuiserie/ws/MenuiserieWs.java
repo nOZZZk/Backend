@@ -9,6 +9,7 @@ import java.awt.*;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin
 public class MenuiserieWs {
 
     @Autowired
@@ -17,5 +18,10 @@ public class MenuiserieWs {
     @PostMapping
     public void createMenuiserie(@RequestBody Menuiserie menuiserie){
         this.menuiserieService.createMenuiserie(menuiserie);
+    }
+
+    @GetMapping
+    public Menuiserie getMenuiserie(){
+        return this.menuiserieService.getMenuiserie();
     }
 }
