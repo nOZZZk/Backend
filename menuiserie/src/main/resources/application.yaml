@@ -10,3 +10,7 @@ spring:
     hibernate:
       ddl-auto: create-drop
     database: mysql
+management:
+  endpoints:
+    web:
+      base-path: 'api'
