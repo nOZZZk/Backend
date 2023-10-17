@@ -1,4 +1,4 @@
-package fr.studi.menuiserie;
+package fr.studi.menuiserie.pojo.enumerate;
 
 public enum Jour {
 
